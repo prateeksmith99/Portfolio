@@ -1,0 +1,129 @@
+<!-- ======= Intro Section ======= -->
+<div id="home" class="intro route bg-image" style="background-image: url(assets/img/intro-bg.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+        <div class="table-cell">
+            <div class="container">
+                <!--<p class="display-6 color-d">Hello, world!</p>-->
+                <h1 class="intro-title mb-4">Hi, I am Prateek Smith Patra</h1>
+                <p class="intro-subtitle"><span class="text-slider-items">Professional Software Developer, Jr. Data Scientist, AI & ML Engineer, Web Developer, Microsoft Certified Azure AI & Data Fundamentals, Won 30 days Google Cloud Certification</span><span class="">
+                </span><strong class="text-slider"></strong></p>
+            </div>
+        </div>
+    </div>
+</div><!-- End Intro Section -->
+
+<main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about-mf sect-pt4 route">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="box-shadow-full">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div *ngFor="let person of _service.profile" class="row">
+                                    <div class="col-sm-6 col-md-5">
+                                        <div class="about-img">
+                                            <img [src]="person.url" class="img-fluid rounded b-shadow-a"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-7">
+                                        <div class="about-info">
+                                            <p><span class="title-s">Name: </span> <span>{{ person.name }}</span></p>
+                                            <p><span class="title-s">Profile: </span> <span>{{ person.profession }}</span></p>
+                                            <p><span class="title-s">Email: </span> <span>{{ person.email }}</span></p>
+                                            <p><span class="title-s">Phone: </span> <span>{{ person.phone }}</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill-mf">
+                                    <p class="title-s">My Personal Information</p>
+                                    <ul>
+                                        <li> Father Name: Subhransu Sekhar Patra </li>
+                                        <li> Mother Name: Gitanjali Patra </li>
+                                        <li> Date Of Birth: 26th December 1999 </li>
+                                        <li> Nationality: Indian </li>
+                                        <li> Languages Known: English, Odia and Hindi </li>
+                                        <li> Hobbies: Painting, Developing Technology Projects </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="about-me pt-4 pt-md-0">
+                                    <div class="title-box-2">
+                                        <h5 class="title-left">
+                                            About me
+                                        </h5>
+                                    </div>
+                                    <p class="lead">
+                                        My name is Prateek Smith Patra, an independent and self-motivated computer science 
+                                        student with proven ability and experience in developing 
+                                        projects, who always evolve with learning technology deeper and deeper. I have 
+                                        well understanding on Python, Java, Data Science, Web Development, & 
+                                        DevOps tools for becoming a software developer in a 
+                                        specified company to test my skills and hire me as an 
+                                        employee who work with dedication & demonstrates 
+                                        innovation, communication and teamwork to ensure quality, 
+                                        timely project completion. 
+                                    </p>
+                                    <p class="lead">
+                                        My vision is to be a Data Scientist so that i can have ability 
+                                        to work with unstructured data coming from various Big 
+                                        Data sources, to make decisions through technology of Data 
+                                        Science for working organizations.
+                                    </p>
+                                    <div class="title-box-2">
+                                        <h5 class="title-left">
+                                            MY CAREER OBJECTIVE
+                                        </h5>
+                                    </div>
+                                    <p class="lead">
+                                        To secure a modern workplace experience with a 
+                                        dynamic and progressive organization, that will allow 
+                                        me to utilize my abilities and qualifications in the field 
+                                        of technology to add values to the organization. 
+                                    </p>
+                                    <div class="title-box-2">
+                                        <h5 class="title-left">
+                                            EDUCATION QUALIFICATION
+                                        </h5>
+                                    </div>
+                                    <p class="lead">
+                                        <ul>
+                                            <li>
+                                                <b>Bachelor of Technology (B.Tech.)</b>
+                                                <br>
+                                                <b>Computer Science and Engineering (CSE)</b>
+                                                <br>
+                                                <b>Silicon Institute of Technology (SIT), BBSR, ODISHA, INDIA</b>
+                                                <br>
+                                                <b>2018 May - 2022 Jun</b>
+                                            </li>
+                                            <li>
+                                                <b>HIGHER SECONDARY- Science (12th)</b>
+                                                <br>
+                                                <b>DAV Public School KNG, BBSR, ODISHA, INDIA</b>
+                                                <br>
+                                                <b>2017 May - 2018 Jun</b>
+                                            </li>
+                                            <li>
+                                                <b>SECONDARY (10th)</b>
+                                                <br>
+                                                <b>DAV Public School KNG, BBSR, ODISHA, INDIA</b>
+                                                <br>
+                                                <b>2015 May - 2016 Jun</b>
+                                            </li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- End About Section -->
+</main>
